@@ -1,0 +1,16 @@
+[user]
+  name = Edson Borge
+[init]
+  defaultBranch = master
+
+# projetos pessoais
+[includeIf "gitdir:~/**"]
+  path = ~/workspace/personal/.gitconfig-personal
+
+[includeIf "gitdir:~/workspace/personal/**"]
+  path = ~/workspace/personal/.gitconfig-personal
+
+# projetos do trabalho
+[includeIf "gitdir:~/workspace/work/**"]
+  path = ~/workspace/work/.gitconfig-work
+
