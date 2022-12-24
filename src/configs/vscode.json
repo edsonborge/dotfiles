@@ -1,0 +1,115 @@
+{
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "lucy-evening",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Menlo, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingMaximumRegions": 50000,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "jsx-sublime-babel-tags": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    ".eslintrc": "json",
+    ".prettierrc": "json",
+    ".npmrc": "shellscript"
+  },
+  "files.watcherExclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "node_modules": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 14,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "git.mergeEditor": false,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.views.worktrees.files.layout": "list",
+  "todo-tree.general.tags": [
+    "@todo",
+    "@fix",
+    "console.log"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "@todo": {
+      "foreground": "#000000",
+      "background": "#FFF000",
+      "icon": "check-circle",
+      "iconColour": "#FFF000",
+      "gutterIcon": true
+    },
+    "@fix": {
+      "foreground": "#FFFFFF",
+      "background": "#FF0000",
+      "icon": "alert",
+      "iconColour": "#FF0000",
+      "gutterIcon": true
+    },
+    "console.log": {
+      "foreground": "#FFFFFF",
+      "background": "#008000",
+      "icon": "chevron-right",
+      "iconColour": "#008000",
+      "gutterIcon": true
+    }
+  }
+}
