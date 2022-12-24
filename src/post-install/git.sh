@@ -1,15 +1,7 @@
 #!/bin/bash
 
 # Config user
-ln -s ~/.dotfiles/src/post-install/git/.gitconfig ~/.gitconfig
-
-mkdir -p ~/workspace/personal
-
-ln -s ~/.dotfiles/src/post-install/git/.gitconfig-personal ~/workspace/personal/.gitconfig-personal
-
-mkdir -p ~/workspace/work
-
-ln -s ~/.dotfiles/src/post-install/git/.gitconfig-work ~/workspace/work.gitconfig-work
+git config user.name --global "Edson Borge"
 
 # Config alias
 git config --global --replace-all alias.s '!git status -s'
