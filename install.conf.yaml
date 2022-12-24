@@ -1,0 +1,48 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+      force: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: './'
+    ~/.config/Code/User/settings.json: 'src/configs/vscode.json'
+    ~/.bashrc: 'src/configs/.bashrc'
+    ~/.zshrc: 'src/configs/.zshrc'
+    ~/.config/.gitignore: 'src/configs/.gitignore'
+    ~/.gitconfig: 'src/configs/.gitconfig'
+    ~/workspace/personal/.gitconfig-personal: 'src/configs/.gitconfig-personal'
+    ~/workspace/work/.gitconfig-work: 'src/configs/.gitconfig-work'
+
+- shell:
+    # Update apt
+    - sh src/post-install/before-install.sh
+
+    # Install dev dependencies
+    - sh src/post-install/dev-essencials.sh
+
+    # Setting git
+    - sh src/post-install/git.sh
+
+    # Setting terminal configs
+    - sh src/post-install/terminal.sh
+
+    # Install vscode and extensions
+    - sh src/post-install/vscode.sh
+
+    # Install nvm
+    - sh src/post-install/nvm.sh
+
+    # Install docker and docker-compose
+    - sh src/post-install/docker.sh
+
+    # Flatpack programs
+    - sh src/post-install/flatpack.sh
+
+    # Brave browser
+    - sh src/post-install/brave-browser.sh
+
+    # Remove apt cache
+    - sh src/post-install/after-install.sh
