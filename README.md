@@ -9,7 +9,7 @@ All my dotfiles.
 ```bash
 $ cd ~
 
-$ git clone https://github.com/danprates/dotfiles.git
+$ git clone https://github.com/edsonborge/dotfiles.git
 
 $ cd dotfiles
 ```
