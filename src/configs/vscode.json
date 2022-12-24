@@ -19,7 +19,7 @@
   "editor.foldingMaximumRegions": 50000,
   "editor.minimap.enabled": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
@@ -34,7 +34,7 @@
   "files.associations": {
     ".eslintrc": "json",
     ".prettierrc": "json",
-    ".npmrc": "shellscript"
+    ".npmrc": "shellscript",
   },
   "files.watcherExclude": {
     "**/.git": true,
@@ -65,6 +65,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -73,17 +76,15 @@
   "git.autofetch": true,
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 14,
+  "git.mergeEditor": false,
+  "gitlens.views.worktrees.files.layout": "list",
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
-  "git.mergeEditor": false,
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "gitlens.views.worktrees.files.layout": "list",
   "todo-tree.general.tags": [
     "@todo",
     "@fix",
@@ -111,5 +112,5 @@
       "iconColour": "#008000",
       "gutterIcon": true
     }
-  }
+  },
 }
