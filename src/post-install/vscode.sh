@@ -5,8 +5,8 @@ sudo apt install code
 
 # Install extensions
 
-# Lucy theme
-code --install-extension juliettepretot.lucy-vscode
+# oh-lucy theme
+code --install-extension Hermitter.oh-lucy-vscode
 
 # Material icon theme
 code --install-extension PKief.material-icon-theme
@@ -50,5 +50,5 @@ code --install-extension ChakrounAnas.turbo-console-log
 # Version lens
 code --install-extension pflannery.vscode-versionlens
 
-# Vetur
-code --install-extension octref.vetur
+# Postman
+code --install-extension Postman.postman-for-vscode
