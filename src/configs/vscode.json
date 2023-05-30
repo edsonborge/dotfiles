@@ -20,7 +20,7 @@
   "editor.foldingMaximumRegions": 50000,
   "editor.minimap.enabled": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": true
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
@@ -35,7 +35,7 @@
   "files.associations": {
     ".eslintrc": "json",
     ".prettierrc": "json",
-    ".npmrc": "shellscript",
+    ".npmrc": "shellscript"
   },
   "files.watcherExclude": {
     "**/.git": true,
