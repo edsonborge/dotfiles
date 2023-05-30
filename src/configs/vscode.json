@@ -6,6 +6,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "'Fira Code', Menlo, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 14,
+  "editor.fontLigatures": true,
   "editor.lineHeight": 20,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -113,4 +114,9 @@
       "gutterIcon": true
     }
   },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "❯": true
+  },
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.insertEnclosingFunction": false
 }
