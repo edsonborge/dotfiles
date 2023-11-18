@@ -16,6 +16,10 @@
     ~/workspace/personal/.gitconfig-personal: 'src/configs/.gitconfig-personal'
     ~/workspace/work/.gitconfig-work: 'src/configs/.gitconfig-work'
 
+- create:
+    - ~/workspace/personal
+    - ~/workspace/work
+
 - shell:
     # Update apt
     - sh src/post-install/before-install.sh
