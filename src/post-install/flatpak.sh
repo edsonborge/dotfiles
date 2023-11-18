@@ -1,26 +1,25 @@
 #!/bin/bash
 
 # Install Flatpak
-sudo apt install flatpak
+sudo apt install -y flatpak
 
 # Postman
 flatpak install -y flathub com.getpostman.Postman
 
 # Bitwarden
-flatpak install flathub com.bitwarden.desktop
-
-# Office
-flatpak install -y flathub com.wps.Office
+flatpak install -y flathub com.bitwarden.desktop
 
 # Edge
-flatpak install flathub com.microsoft.Edge
+flatpak install -y flathub com.microsoft.Edge
 
 # Slack
-flatpak install flathub com.slack.Slack
+flatpak install -y flathub com.slack.Slack
 
 # Teams
-flatpak install flathub com.microsoft.Teams
+flatpak install -y flathub com.github.IsmaelMartinez.teams_for_linux
 
 # Spotify
-flatpak install flathub com.spotify.Client
+flatpak install -y flathub com.spotify.Client
 
+# VLC
+flatpak install -y flathub org.videolan.VLC

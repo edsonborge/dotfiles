@@ -52,3 +52,9 @@ code --install-extension pflannery.vscode-versionlens
 
 # Postman
 code --install-extension Postman.postman-for-vscode
+
+# Styled components
+code --install-extension styled-components.vscode-styled-components
+
+# Project manager
+code --install-extension alefragnani.project-manager
