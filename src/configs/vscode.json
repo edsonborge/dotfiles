@@ -1,6 +1,4 @@
 {
-  "window.zoomLevel": 0,
-  "breadcrumbs.enabled": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "oh-lucy-evening",
   "workbench.iconTheme": "material-icon-theme",
@@ -17,10 +15,10 @@
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.foldingMaximumRegions": 50000,
   "editor.minimap.enabled": false,
+  "editor.foldingMaximumRegions": 50000,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
@@ -35,7 +33,7 @@
   "files.associations": {
     ".eslintrc": "json",
     ".prettierrc": "json",
-    ".npmrc": "shellscript"
+    ".npmrc": "shellscript",
   },
   "files.watcherExclude": {
     "**/.git": true,
@@ -118,5 +116,8 @@
     "❯": true
   },
   "turboConsoleLog.includeFileNameAndLineNum": false,
-  "turboConsoleLog.insertEnclosingFunction": false
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "git.confirmSync": false,
+  "vue.codeActions.savingTimeLimit": 10000,
+  "projectManager.sortList": "Name",
 }
