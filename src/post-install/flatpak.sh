@@ -21,5 +21,8 @@ flatpak install -y flathub com.github.IsmaelMartinez.teams_for_linux
 # Spotify
 flatpak install -y flathub com.spotify.Client
 
+# Discord
+flatpak install -y flathub com.discordapp.Discord
+
 # VLC
 flatpak install -y flathub org.videolan.VLC
