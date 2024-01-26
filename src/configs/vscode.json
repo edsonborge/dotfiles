@@ -1,8 +1,13 @@
 {
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "oh-lucy-evening",
+  "workbench.editor.labelFormat": "medium",
+  "workbench.colorTheme": "Min Darker",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "'Fira Code', Menlo, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "'Fira Code', Menlo, 'Droid Sans Mono', monospace",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 20,
@@ -10,15 +15,21 @@
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
   "editor.formatOnSave": true,
   "editor.multiCursorModifier": "alt",
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.minimap.enabled": false,
   "editor.foldingMaximumRegions": 50000,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "❯": true,
+    "​": true
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
@@ -72,52 +83,20 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
-  "git.autofetch": true,
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
+  "prettier.semi": false,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 14,
+  "git.autofetch": true,
   "git.mergeEditor": false,
   "gitlens.views.worktrees.files.layout": "list",
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
-  "todo-tree.general.tags": [
-    "@todo",
-    "@fix",
-    "console.log"
-  ],
-  "todo-tree.highlights.customHighlight": {
-    "@todo": {
-      "foreground": "#000000",
-      "background": "#FFF000",
-      "icon": "check-circle",
-      "iconColour": "#FFF000",
-      "gutterIcon": true
-    },
-    "@fix": {
-      "foreground": "#FFFFFF",
-      "background": "#FF0000",
-      "icon": "alert",
-      "iconColour": "#FF0000",
-      "gutterIcon": true
-    },
-    "console.log": {
-      "foreground": "#FFFFFF",
-      "background": "#008000",
-      "icon": "chevron-right",
-      "iconColour": "#008000",
-      "gutterIcon": true
-    }
-  },
-  "editor.unicodeHighlight.allowedCharacters": {
-    "❯": true
-  },
-  "turboConsoleLog.includeFileNameAndLineNum": false,
-  "turboConsoleLog.insertEnclosingFunction": false,
   "git.confirmSync": false,
-  "vue.codeActions.savingTimeLimit": 10000,
   "projectManager.sortList": "Name",
+  "window.menuBarVisibility": "toggle",
 }
