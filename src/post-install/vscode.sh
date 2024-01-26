@@ -5,11 +5,14 @@ sudo apt install code
 
 # Install extensions
 
-# oh-lucy theme
-code --install-extension Hermitter.oh-lucy-vscode
+# Auto import
+code --install-extension steoates.autoimport
 
-# Material icon theme
-code --install-extension PKief.material-icon-theme
+# Color highlight
+code --install-extension naumovs.color-highlight
+
+# Docker
+code --install-extension ms-azuretools.vscode-docker
 
 # Editor config
 code --install-extension EditorConfig.EditorConfig
@@ -17,8 +20,8 @@ code --install-extension EditorConfig.EditorConfig
 # Eslint
 code --install-extension dbaeumer.vscode-eslint
 
-# Prettier
-code --install-extension esbenp.prettier-vscode
+# GitLens
+code --install-extension eamodio.gitlens
 
 #Live server
 code --install-extension ritwickdey.LiveServer
@@ -26,35 +29,23 @@ code --install-extension ritwickdey.LiveServer
 # Live share
 code --install-extension ms-vsliveshare.vsliveshare
 
-# Docker
-code --install-extension ms-azuretools.vscode-docker
+# Material icon theme
+code --install-extension PKief.material-icon-theme
 
-# GitLens
-code --install-extension eamodio.gitlens
-
-# Auto import
-code --install-extension steoates.autoimport
-
-# Color highlight
-code --install-extension naumovs.color-highlight
-
-# Sort lines
-code --install-extension Tyriar.sort-lines
-
-# Todo tree
-code --install-extension Gruntfuggly.todo-tree
-
-# Turbo console log
-code --install-extension ChakrounAnas.turbo-console-log
-
-# Version lens
-code --install-extension pflannery.vscode-versionlens
+# Min Darker theme
+code --install-extension St0pien.min-darker
 
 # Postman
 code --install-extension Postman.postman-for-vscode
 
-# Styled components
-code --install-extension styled-components.vscode-styled-components
+# Prettier
+code --install-extension esbenp.prettier-vscode
 
 # Project manager
 code --install-extension alefragnani.project-manager
+
+# Sort lines
+code --install-extension Tyriar.sort-lines
+
+# Version lens
+code --install-extension pflannery.vscode-versionlens
