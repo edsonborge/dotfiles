@@ -13,6 +13,7 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.minimap.enabled": true,
   "editor.minimap.showSlider": "always",
@@ -101,5 +102,5 @@
   "projectManager.sortList": "Name",
   "zenMode.centerLayout": false,
   "zenMode.hideLineNumbers": false,
-  "window.commandCenter": false,
+  "window.commandCenter": false
 }
