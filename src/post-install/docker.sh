@@ -33,7 +33,7 @@ sudo apt-get update
 
 # Instalar Docker e Docker Compose
 echo "Instalando Docker e Docker Compsose..."
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 # Adicionar grupo docker
 echo "Adicionando grupo do docker..."
