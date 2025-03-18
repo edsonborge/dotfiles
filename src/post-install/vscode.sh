@@ -44,6 +44,9 @@ code --install-extension esbenp.prettier-vscode
 # Project manager
 code --install-extension alefragnani.project-manager
 
+# Remote SSH
+code --install-extension ms-vscode-remote.remote-ssh
+
 # Sort lines
 code --install-extension Tyriar.sort-lines
 
