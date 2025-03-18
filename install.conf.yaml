@@ -9,6 +9,7 @@
 - link:
     ~/.dotfiles: './'
     ~/.config/Code/User/settings.json: 'src/configs/vscode.json'
+    ~/.config/Code/User/keybindings.json: 'src/configs/keybindings.json'
     ~/.bashrc: 'src/configs/.bashrc'
     ~/.zshrc: 'src/configs/.zshrc'
     ~/.config/.gitignore: 'src/configs/.gitignore'
@@ -30,9 +31,6 @@
     # Setting git
     - sh src/post-install/git.sh
 
-    # Setting terminal configs
-    - sh src/post-install/terminal.sh
-
     # Install vscode and extensions
     - sh src/post-install/vscode.sh
 
@@ -44,9 +42,6 @@
 
     # Flatpack programs
     - sh src/post-install/flatpack.sh
-
-    # Brave browser
-    - sh src/post-install/brave-browser.sh
 
     # Remove apt cache
     - sh src/post-install/after-install.sh
