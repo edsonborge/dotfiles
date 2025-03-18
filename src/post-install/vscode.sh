@@ -23,7 +23,7 @@ code --install-extension dbaeumer.vscode-eslint
 # GitLens
 code --install-extension eamodio.gitlens
 
-#Live server
+# Live server
 code --install-extension ritwickdey.LiveServer
 
 # Live share
